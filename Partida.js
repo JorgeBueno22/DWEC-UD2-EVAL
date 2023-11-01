@@ -98,10 +98,12 @@ import { Baraja } from './Baraja.js'
       let parejaAnterior = this.parejaActual[0];
       let cartaActual = this.mazo[fila][columna];
       let cartaAnterior = this.mazo[parejaAnterior.fila][parejaAnterior.columna];
-  
+     /*
+     En este metodo me da error a la hora de decir si es correcta o no la carta, debido a que los valores son undefined,
+      no he conseguido llegar a una solución.
       console.log(cartaActual.nombre);
       console.log(cartaAnterior.palo);  
-
+      */
 
       if (
         cartaActual.nombre === cartaAnterior.nombre &&
